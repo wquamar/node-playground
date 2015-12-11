@@ -16,6 +16,9 @@ var http = require('http'),
 //##################################################################
 
 
+//This sample just proxies to www.omegawatches.com
+//##################################################################
+
 http.createServer(onRequest).listen(3000);
 
 function onRequest(client_req, client_res) {
@@ -38,3 +41,5 @@ function onRequest(client_req, client_res) {
     end: true
   });
 }
+
+//##################################################################

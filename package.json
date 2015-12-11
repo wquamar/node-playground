@@ -1,0 +1,24 @@
+{
+  "name": "node-playground",
+  "version": "0.0.1",
+  "description": "Node.js Playground",
+  "homepage": "https://github.com/wquamar/node-playground",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wquamar/node-playground"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Waseem Quamar",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.12.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
